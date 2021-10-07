@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/wonderland.js"></script>
+
+</head>
+<body>
+    <div id="610b097f9434477fa2acf4cbfad165d0" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_610b097f9434477fa2acf4cbfad165d0 = echarts.init(
+            document.getElementById('610b097f9434477fa2acf4cbfad165d0'), 'wonderland', {renderer: 'canvas'});
+        var option_610b097f9434477fa2acf4cbfad165d0 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u6570\u91cf",
+            "data": [
+                1,
+                2,
+                40,
+                1123,
+                3148
+            ],
+            "barCategoryGap": 0,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6570\u91cf"
+            ],
+            "selected": {
+                "\u6570\u91cf": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "(0, 2]",
+                "(2, 4]",
+                "(4, 6]",
+                "(6, 8]",
+                "(8, 10]"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u8bc4\u5206\u5206\u5e03",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_610b097f9434477fa2acf4cbfad165d0.setOption(option_610b097f9434477fa2acf4cbfad165d0);
+    </script>
+</body>
+</html>
